@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
 // API Endpoints
-const API_BASE = "http://localhost:5000/api/teachers";
+const API_BASE = "http://localhost:5001/api/teachers";
 
 // Async Thunks
 

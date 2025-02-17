@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 // API base URLs
-const API_BASE_URL = 'http://localhost:5000/api/Videos';
+const API_BASE_URL = 'http://localhost:5001/api/Videos';
 
 // Add a video to a playlist
 export const addVideoToPlaylist = createAsyncThunk(
